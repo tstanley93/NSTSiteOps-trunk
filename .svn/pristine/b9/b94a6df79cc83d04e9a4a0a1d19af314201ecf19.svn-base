@@ -1,0 +1,204 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="NSTSiteOps.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    	<title>Advanced Template</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="title" content="NST SiteOps Home" />
+		<meta name="subject" content="Team Home Page" />
+		<meta name="creator" content="1746798 - Thomas C. Stanley" />
+		<meta name="Description" content="NST SiteOps" />
+		<meta name="date" content="2010-11-22" />
+		<meta name="owner" content="24453 - Klabunde, Charles" />
+		<meta name="robots" content="ALL" />
+		<script language="javascript1.2" src="_scripts/javascript.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="_css/styles.css" type="text/css" />
+		<link rel="stylesheet" href="_css/print.css" type="text/css" media="print" />
+</head>
+<body>
+    <!-- ### BEGIN HEADER ### -->
+		<div id="header">
+
+			<a id="logoBoeing" href="http://inside.boeing.com"><img src="_images/logo90wb.gif" alt="Boeing logo that links to inside.boeing.com" border="0" height="90" width="200" title="Boeing Home" /></a>
+			<a id="pageTitle" href="http://inside.boeing.com"><img src="_images/bz_EOT_brt.jpg" alt="Advanced Template" border="0" height="90" width="560" /></a>
+
+			<!-- ## BEGIN PRINT ONLY ## -->
+			<img id="logoBoeingPrint" src="_images/logo90wb_black.gif" alt="Boeing Home" border="0" height="90" width="200" title="Boeing Home" />
+			<span id="pageTitlePrint">Advanced Template</span>
+			<!-- ## END PRINT ONLY ## -->
+			
+		</div>
+		<!-- ### END HEADER ### -->
+
+		<!-- ### BEGIN MAIN SECTION ### -->
+		<div id="mainSection">
+
+			<!-- ### BEGIN LEFT SECTION ### -->
+			<div id="leftSection">
+	
+				<!-- ### BEGIN SEARCH ### -->
+				<div id="searchBox">
+					<form method="get" class="searchForm" action="http://googleweb.cs.boeing.com/search">
+						<input class="searchField" type="text" name="q" value="&nbsp;Search Boeing Web" size="18" maxlength="180" onfocus="this.value='';" />
+						<input type="hidden" name="client" value="boeing" />
+						<input type="hidden" name="output" value="xml_no_dtd" />
+						<input type="hidden" name="proxystylesheet" value="boeing" />
+						<input type="hidden" name="site" value="boeing" />
+						<%--<input id="googlesearch" type="hidden" name="sitesearch" value="yoursite.boeing.com" />--%>
+						<input class="searchButton" name="btnG" type="image" src="_images/searchbutton.gif" align="top" alt="Search This Site" title="Search Boeing Web" />
+					</form>
+				</div>
+				<!-- ### END SEARCH ### -->
+
+				<!-- ### BEGIN VERTICAL NAVIGATION ### -->				
+				<ul id="menuVertical">
+
+					<li id="home"><a href="Default.aspx" title="" tabindex="">Home</a></li>
+
+					<!-- ### BEGIN VERTICAL MENU ITEM ONE ### -->
+					<li id="menuItemOne"><a class="arrow" href="#">Customer Tools</a>
+						<ul>
+							<li><a class="arrow" href="#">Printers</a>
+								<ul>
+									<li><a href="Printer_Drivers.aspx">Floor Printers</a></li>
+									<li><a href="Plotter_Drivers.aspx">Plotter</a></li>									
+								</ul>
+							</li>
+							<li><a href="Win7_Samba.aspx">Win7 and Samba</a></li>
+						</ul>
+					</li>
+					<!-- ### END VERTICAL MENU ITEM ONE ### -->
+
+					<!-- ### BEGIN VERTICAL MENU ITEM TWO ### -->
+					<%--<li><a href="#">Menu Item Two</a></li>--%>
+					<!-- ### END VERTICAL MENU ITEM TWO ### -->
+
+					<!-- ### BEGIN VERTICAL MENU ITEM THREE ### -->
+					<li><a class="arrow" href="#">Reports</a>
+						<ul>
+							<%--<li><a href="#">PW-MCT-F Space</a></li>--%>
+							<li><a class="arrow" href="#">PW-MCT-F Space</a>
+								<ul>
+									<li><a href="http://forge.rt.cs.boeing.com/NSTSiteOps/PWMCTF_Projects_Space.aspx">Projects</a></li>
+									<li><a href="#">Home</a></li>
+									<%--<li><a class="arrow" href="#">Submenu Item Three</a>
+										<ul>
+										<li><a href="#">Submenu Item One</a></li>
+										<li><a href="#">Submenu Item Two</a></li>
+										<li><a href="#">Submenu Item Three</a></li>
+										<li><a href="#">Submenu Item Four</a></li>
+										<li><a href="#">Submenu Item Five</a></li>
+										</ul>
+									</li>--%>
+									<li><a href="#">Mail</a></li>
+									<%--<li><a href="#">Submenu Item Five</a></li>--%>
+								</ul>
+							</li>
+							<%--<li><a href="#">Submenu Item Three</a></li>--%>
+						</ul>
+					</li>
+					<!-- ### END VERTICAL MENU ITEM THREE ### -->
+
+
+					<li id="printPage"><a href="#" onclick="window.print()" title="Print This Page">Print This Page</a></li>
+				</ul>
+				<!-- ### END VERTICAL NAVIGATION ### -->
+			</div>
+			<!-- ### END LEFT SECTION ### -->
+
+			<!-- ### BEGIN HORIZONTAL NAVIGATION ### -->
+			<div id="menuHorizontal">
+
+				<!-- ### BEGIN HORIZONTAL MENU ITEM ONE ### -->
+				<ul>
+					<li class="active"><h2><a href="#" title="">Boeing Sites</a></h2>
+						<ul>
+							<li><a href="http://inside.boeing.com/" title="" tabindex="">Inside Boeing</a></li>
+							<li><a href="http://helpdesk.web.boeing.com/" title="" tabindex="">Enterprise HelpDesk</a></li>
+							<li><a href="https://myservices.web.boeing.com/RequestCenter/myservices/myservice.do" title="" tabindex="">MyServices</a></li>
+							<li><a href="http://websr.web.boeing.com/" title="" tabindex="">WebSR</a></li>
+                            <li><a href="http://ddbr.ca.boeing.com/" title="" tabindex="">DDBR</a></li>
+							<li><a class="arrow" href="#" title="" tabindex="">Server Tools</a>
+								<ul>
+									<li><a href="http://dcix.web.boeing.com" title="" tabindex="">DCIX</a></li>
+									<li><a href="http://dcixs.web.boeing.com" title="" tabindex="">DCIS</a></li>
+                                    <li><a href="http://sis.web.boeing.com" title="" tabindex="">SIS</a></li>
+                                    <li><a href="http://ciim.web.boeing.com" title="" tabindex="">CIIM</a></li>
+                                    <li><a href="http://ntam.web.boeing.com" title="" tabindex="">NTAM</a></li>
+                                    <li><a href="http://nams.web.boeing.com" title="" tabindex="">NAMS</a></li>
+								</ul>
+							</li>
+                            <li><a href="http://serverprotection.web.boeing.com" title="" tabindex="">McAfee</a></li>
+                            <li><a href="http://barsprod.web.boeing.com/bars/shared/login.jsp?/bars/forms/barsprod.ca.boeing.com/HD:HomePage" title="" tabindex="">BARS</a></li>
+						</ul>
+					</li>
+				</ul>
+				<!-- ### END HORIZONTAL MENU ITEM ONE ### -->
+
+				<!-- ### BEGIN HORIZONTAL MENU ITEM TWO ### -->
+				<ul>
+					<li class="active"><h2><a href="#" title="">Team Tool Sites</a></h2>
+						<ul>
+							<li><a href="http://192.54.7.40/start.html" title="" tabindex="">EMC Navisphere</a></li>
+							<li><a href="https://vtrssg.web.boeing.com/nw/gggg46smt/CSCLabSupport/" title="" tabindex="">Team Sharepoint Site</a></li>
+							<li><a href="https://vtrssg.web.boeing.com/nw/gggg46smt/CSCLabSupport/Shared%20Documents/Labs%20Department%20Tasks%20List.xlsx" title="" tabindex="">Team Task List</a></li>
+                            <li><a href="https://vtrssg.web.boeing.com/nw/gggg46smt/CSCLabSupport/Lists/Calendar/calendar.aspx" title="" tabindex="">Team Calendar</a></li>
+							<%--<li><a href="#" title="" tabindex="">Submenu Item Four</a></li>--%>
+						</ul>
+					</li>
+				</ul>
+				<!-- ### END HORIZONTAL MENU ITEM TWO ### -->
+
+				<!-- ### BEGIN HORIZONTAL MENU ITEM THREE ### -->
+				<ul>
+					<li class="active"><h2><a href="#" title="">Team Documentation</a></h2>
+						<ul>
+							<li><a href="http://forge.rt.cs.boeing.com/NSTSiteOps/EMC_Trouble_Ticket.aspx" title="" tabindex="">EMC Trouble Ticket</a></li>
+							<%--<li><a class="arrow" href="#" title="" tabindex="">Submenu Item Two</a>
+								<ul>
+									<li><a href="#" title="" tabindex="">Submenu Item One</a></li>
+									<li><a href="#" title="" tabindex="">Submenu Item Two</a></li>
+								</ul>
+							</li>--%>
+						</ul>
+					</li>
+				</ul>
+				<!-- ### END HORIZONTAL MENU ITEM THREE ### -->
+			</div>
+			<!-- ### END HORIZONTAL NAVIGATION ### -->
+
+			<!-- ### BEGIN PERSONALITY ZONE ### -->
+			<div id="personalityZone">
+                <asp:Image ID="Image1" runat="server" 
+                    ImageUrl="~/_images/pz_NST-SiteOps_Home.jpg" Width="100%" />
+            </div>
+			<!-- ### END PERSONALITY ZONE ### -->
+	
+			<!-- ### BEGIN MAIN CONTENT ### -->
+			<div id="mainContent">
+	
+                <asp:ContentPlaceHolder ID="Content" runat="server">
+                </asp:ContentPlaceHolder>
+	
+			</div>
+			<!-- ### END MAIN CONTENT ### -->
+
+		</div>
+		<!-- ### END MAIN SECTION ### -->
+
+		<!-- ### BEGIN FOOTER ### -->
+		<div id="footer">
+				<div class="footerLinks">
+					<div id="footer-identity"></div>
+					<p><a href="http://inside.boeing.com/" tabindex="">Inside Boeing</a> | <a href="http://my.boeing.com" tabindex="">MyBoeing</a> | <a href="mailto:DL-NSTSiteOps@pss.boeing.com?subject=Customer%20Comments" tabindex="">Contact US</a> | <a href="mailto:thomas.c.stanley@boeing.com?subject=About%20the%20Website." tabindex="">Website Authour</a></p>
+				</div>
+				<div id="footerText">
+					<p>BOEING is a trademark of Boeing Management Company.</p>
+					<p>Copyright &copy; 2006 Boeing. All rights reserved.</p>
+				</div>
+		</div>
+		<!-- ### END FOOTER ### -->
+</body>
+</html>

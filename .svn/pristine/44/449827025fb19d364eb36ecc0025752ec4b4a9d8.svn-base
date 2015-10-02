@@ -1,0 +1,129 @@
+/*
+	### DO NOT EDIT THIS STYLESHEET ###
+
+	This file contains specific layout, positioning 
+	and color formatting that should not be edited.
+*/
+
+#headerPrint, #logoBoeingPrint, #pageTitlePrint {
+	display: none;
+}
+
+#logoBoeing {
+	position: absolute;
+}
+
+#pageTitle {
+	display: block;
+	float: right;
+}
+
+#mainSection {
+	clear: both;
+	padding: 1px 0px 0px 0px;
+}
+
+#leftSection {
+	position: absolute;
+	top: 91px;
+	z-index: 100;
+}
+
+#menuHorizontal {
+	display: block;
+	padding-left: 175px;
+	z-index: 200;
+}
+
+#mainContent {
+	margin: 0px 10px 0px 175px; 
+	padding: 10px 0px 10px 10px;
+}
+
+
+/* ### SEARCH BOX STYLES ### */
+
+#searchBox {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 4px 0px 2px 6px;
+	color: white;
+	background-color: #333;
+	width: 170px;
+	/*padding-right: 6px;*/
+	height: 16px;
+} 
+
+.searchForm {
+	color: #666;
+	background-color: #333;
+	/* IE fixes */
+}
+
+.searchField {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 1px 0px;
+	color: #333;
+	background-color: #eee;
+	border-width: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size: 10px;
+	/*height: 14px;
+	width: 149px;*/
+	height: 14px;
+	width: 146px;
+	/*margin-right: -3px;*/
+}
+
+.searchButton {
+	/*float: right;	*/
+}
+
+/* footer area */
+#footer {
+	clear: both;
+}
+
+.footerLinks {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	font-size: 65%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #0038A8;
+}
+
+.footerLinks p {
+	margin: 0px 0px 5px 175px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	line-height: 100%;
+}
+
+#footer-identity {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 200px;
+	height: 10px;
+	color: white;
+	background-color: #0038A8;
+}
+
+#footerText {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	font-size: 65%;
+	width: 100%;
+}
+
+#footerText p {
+	margin: 0px 0px 5px 175px;
+	text-align: left;
+	line-height: 100%;
+	color: #666;
+	background-color: white;
+}

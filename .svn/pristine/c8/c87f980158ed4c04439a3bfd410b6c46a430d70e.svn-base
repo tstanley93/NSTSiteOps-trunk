@@ -1,0 +1,142 @@
+/*  Advanced Combination Tempate - version 3.0.06  */
+
+body {
+	color: #000;
+	background: #fff;
+	font-weight: normal;
+	font-size: 12pt;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#searchBox, #printPage, 
+#breadcrumb,
+#personalityZone, .footerLinks, #leftSection,
+#menuHorizontal {
+	display: none;
+}
+
+#logoBoeing, #pageTitle {
+	display: none;
+}
+
+#logoBoeingPrint {
+	display: block;
+	float: left;
+}
+
+#pageTitlePrint {
+	display: block;
+	float: right;
+	color: #000;
+	background: transparent;
+	font-weight: normal;
+	font-size: 12pt;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+}
+
+#footerText p {
+	margin-left: 0px;
+}
+
+a:link, a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Does not work in IE */
+#mainContent a[href]:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+}
+
+#mainContent {
+	color: #000;
+	background: transparent;
+	font-size: 12pt;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;
+	border: none;
+	margin: 0px;
+}
+
+#mainContent h1 {
+	text-align: left;
+	font-size: 14pt;
+	color: #000;
+	background: transparent;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#mainContent h2 {
+	text-align: left;
+	font-size: 12pt;
+	color: #000;
+	background: transparent;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#mainContent h3 {
+	text-align: left;
+	font-size: 70%;
+	color: #666;
+	background: transparent;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;	
+}
+
+#mainContent p {
+	margin-top: 0px; 
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 5px; 
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	font-size: 12pt;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#mainContent ul {
+	margin-top: 20px; 
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 5px; 
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	font-size: 12pt;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#mainContent li {
+	padding-bottom: 6px;
+}
+
+#mainContent ol {
+	margin-top: 0px; 
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+	padding-top: 5px; 
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	font-size: 12pt;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#updated {
+	font-family: "Times New Roman", Times, serif;
+}
